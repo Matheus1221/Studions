@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100vw;
+  height: 600px;
+  background-image: url("../assets/image-hero.jpg");
+  background-repeat: no-repeat;
+  background-position: absolute;
+  background-size: 100%;
+}
+.navbar {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+}
+.navigation li {
+  padding: 10px;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}

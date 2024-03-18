@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Josefin Sans";
 }
 
 header {
@@ -10,7 +11,10 @@ header {
   background-image: url("../assets/image-hero.jpg");
   background-repeat: no-repeat;
   background-position: absolute;
-  background-size: 100%;
+  background-size: cover;
+}
+.logo {
+  height: 28px;
 }
 .navbar {
   width: 1200px;
@@ -34,3 +38,24 @@ a {
   color: #fff;
   font-size: 18px;
 }
+.text-title {
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  height: 500px;
+}
+.text-title h1 {
+  padding: 10px;
+  border: 1px solid #fff;
+  display: flex;
+  width: 550px;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 150;
+  color: #fff;
+  font-size: 3.5em;
+}
+/* font-family: "Alata";
+  font-style: normal; */
